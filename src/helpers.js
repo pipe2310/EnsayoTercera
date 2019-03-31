@@ -706,8 +706,11 @@ listaMatriculass= [];
 			listaMatriculass.push(mat);
 		}
 	})
-
+		console.log('antes de')
+		console.log(listaMatriculas)
 		listaMatriculas=listaMatriculass
+		console.log('despues de')
+		console.log(listaMatriculas)
 		guardarMat()
 		}
 		if(sw==true){

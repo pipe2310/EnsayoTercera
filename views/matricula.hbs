@@ -17,7 +17,7 @@
     <label for="identificador">Curso:</label>
     <!---<input type="number" class="form-control" name="identificador" required="required" placeholder="Ingrese el identificador del curso">--->
     <select name="identificador" class="form-control" > 
-    {{mostrarcursosnombre2}}
+    {{mostrarcursosnombre2 listado}}
     </select>
   </div>
   <div class="form-group">
@@ -30,7 +30,7 @@
 </form>
 </div>	
 <br>
-{{mostrarcursosdisponiblesvermas2}}
+{{mostrarcursosdisponiblesvermas2 listado}}
 <!---
 <table class="table table-striped">
 <tr>
@@ -41,7 +41,7 @@
 <th>Modalidad</th>
 <th>Intensidad</th>
 </tr>
-{{mostrarcursosdisponiblesvermasno}}
+
 
 </table>--->
 {{>footer}}

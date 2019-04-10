@@ -355,11 +355,7 @@ console.log(listado)
 ///////////////////////////////////////////MOSTRAR NOMBRE DE LOS CURSOS DISPONIBLES//////////////////////////////////////////////////////////////
 hbs.registerHelper('mostrarcursosnombre2',(listado)=>{
 let string ;
-var out='<option value="">-</option> ';
-
-
-		listar()
- 
+var out='<option value="">-</option> '; 
 	listado.forEach(curso=>{
 if(curso.estado=="Disponible"){
   out= out+` 
